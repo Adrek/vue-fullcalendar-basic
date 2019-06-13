@@ -1,5 +1,5 @@
 <template>
-    <div ref="calendar" id="calendar"></div>
+    <div ref="calendar" id="calendar" class="agzcalendar"></div>
 </template>
 
 <script>
