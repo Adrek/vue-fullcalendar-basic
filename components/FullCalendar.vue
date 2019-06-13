@@ -79,7 +79,7 @@
                     selectable: this.selectable,
                     selectHelper: this.selectHelper,
                     aspectRatio: 2,
-                    timeFormat: 'HH:mm',
+                    timeFormat: 'H:mm',
                     events: this.events,
                     eventSources: this.eventSources,
 
@@ -89,7 +89,7 @@
                         }
                         self.$emit('event-render', ...args)
                     },
-                    
+
                     viewRender(...args) {
                         if (this.sync) {
                             self.events = cal.fullCalendar('clientEvents')
